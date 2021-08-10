@@ -10,6 +10,7 @@ import {
 } from "@material-ui/core";
 // import Button from '@material-ui/core/Button';
 import MenuIcon from "@material-ui/icons/Menu";
+import ContactCard from "./Components/ContactCard";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -61,6 +62,7 @@ function App() {
       <main>
         <CssBaseline />
         <h1 className="tag">Cyberwort : Software from Future</h1>
+        <ContactCard />
       </main>
       <footer></footer>
     </div>
