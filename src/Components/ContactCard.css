@@ -4,20 +4,17 @@
   justify-content: left;
   align-items: center;
 }
-
 .contact-card {
   margin: 25px;
   flex: 1 1 100%;
   max-width: 420px;
-  border-radius: 50px solid blue;
 }
-
-.contact-card .mdl-card__supporting-text .mdl-list {
+.contact-card > .mdl-card__supporting-text > .mdl-list {
   margin-top: 0;
   padding-top: 0;
 }
 
-.contact-card .mdl-card__title {
+.contact-card > .mdl-card__title {
   height: 108px;
   color: #000;
   background: url("https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260")
@@ -28,35 +25,27 @@
   padding-top: 20px;
   font-family: "Varela Round", sans-serif;
 }
+/*  */
 
-.contact-card .mdl-card__title .mdl-card__title-text {
+.contact-card > .mdl-card__title > .mdl-card__title-text {
   font-size: 32px;
   margin-left: 16px;
 }
 
-.contact-card .mdl-card__title .mdl-button--fab {
-  position: absolute;
-  right: 16px;
-  bottom: -25px;
-  overflow: hidden;
-}
-
-.contact-card .mdl-card__menu {
-  color: #fff;
-}
-
 @media (min-width: 720px) {
   .contact-card > .mdl-card__title {
-    height: 360px;
+    height: 300px;
   }
 
-  .contact-card .mdl-card__title .mdl-card__title-text {
+  .contact-card > .mdl-card__title > .mdl-card__title-text {
     font-size: 54px;
-    margin-bottom: 16px;
-    margin-left: 80px;
+    margin-bottom: 100px;
+    margin-left: 90px;
+    font-weight: 700;
+    font-family: "Varela Round", sans-serif;
   }
 
-  .contact-card .mdl-card__supporting-text {
+  .contact-card > .mdl-card__supporting-text {
     padding: 32px;
   }
 }
